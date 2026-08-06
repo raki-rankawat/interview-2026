@@ -12,8 +12,9 @@ This is the master index. Every note file links back here, and to the previous a
 | - | ------ | ----- | ---- |
 | 1 | Phase 1 · Fundamentals | Variables (`var`, `let`, `const`), scope, hoisting, TDZ | [variables.md](javascript/fundamentals/variables.md) |
 | 2 | Phase 1 · Fundamentals | Data Types & Memory (primitives, references, copying) | [data-types.md](javascript/fundamentals/data-types.md) |
+| 3 | Phase 1 · Fundamentals | Functions, arrow functions, execution context, call stack, scope chain, closures, stale closures | [functions-closures.md](javascript/fundamentals/functions-closures.md) |
 
-**Up next:** Module 3 — Functions, Execution Context, and Closures.
+**Up next:** Module 4 — Objects & Arrays.
 
 Unlinked topics below have no notes yet. They get linked here as each one is written.
 
@@ -27,17 +28,17 @@ Unlinked topics below have no notes yet. They get linked here as each one is wri
 * [Primitive vs Reference types](javascript/fundamentals/data-types.md) ✅
 * [Scope](javascript/fundamentals/variables.md) — covered inside Variables
 * [Hoisting](javascript/fundamentals/variables.md) — covered inside Variables
-* Closures
-* Lexical scope
-* Execution Context
-* Call Stack
+* [Closures](javascript/fundamentals/functions-closures.md) ✅
+* [Lexical scope](javascript/fundamentals/functions-closures.md) — covered inside Functions & Closures
+* [Execution Context](javascript/fundamentals/functions-closures.md) ✅
+* [Call Stack](javascript/fundamentals/functions-closures.md) — covered inside Functions & Closures
 * Event Loop
 * Microtasks vs Macrotasks
 * [Garbage Collection](javascript/fundamentals/data-types.md) — partially covered in Data Types & Memory
 
 ## ES6+
 
-* Arrow functions
+* [Arrow functions](javascript/fundamentals/functions-closures.md) — covered inside Functions & Closures
 * Destructuring
 * Spread operator
 * Rest operator
@@ -147,7 +148,7 @@ Know:
 
 * dependency array
 * cleanup
-* stale closure
+* [stale closure](javascript/fundamentals/functions-closures.md) — covered inside Functions & Closures
 * infinite loops
 * React Strict Mode
 * React 18 rendering
@@ -478,8 +479,9 @@ For **Frontend / Senior Frontend Engineer** roles in Europe, these are now expec
 interview-2026/
 └── javascript/
     └── fundamentals/
-        ├── variables.md      Module 1
-        ├── data-types.md     Module 2
+        ├── variables.md            Module 1
+        ├── data-types.md           Module 2
+        ├── functions-closures.md   Module 3
         ├── variables.js
         └── index.html
 ```

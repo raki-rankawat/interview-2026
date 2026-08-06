@@ -690,4 +690,4 @@ setState(state);
 
 | ← Previous | Index | Next → |
 | ---------- | ----- | ------ |
-| [Module 1 — Variables](variables.md) | [Study Plan](../../README.md) | Module 3 — Functions, Execution Context, and Closures *(not written yet)* |
+| [Module 1 — Variables](variables.md) | [Study Plan](../../README.md) | [Module 3 — Functions & Closures](functions-closures.md) |
