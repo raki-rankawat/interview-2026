@@ -26,7 +26,7 @@ Notes form **one global linear sequence** across the whole study plan. Each note
 
 Everything else is derived from those H1 numbers:
 
-- Each note opens with `[← Study Plan](../../README.md)` (one `..` per directory level below root).
+- Each note opens with `[← Study Plan](../README.md)` (one `..` per directory level below root).
 - Each note closes with a `| ← Previous | Index | Next → |` table linking its neighbours.
 - `README.md` carries a "Notes Written So Far" table, an "Up next" pointer, and inline links from plan bullets to the notes that cover them.
 
@@ -46,7 +46,7 @@ Run `/update-readme` rather than hand-editing the index; it rebuilds all of the 
 
 ## Note style
 
-Match the existing notes (`javascript/fundamentals/`) rather than a generic docs voice:
+Match the existing notes (`javascript/`) rather than a generic docs voice:
 
 - Teach a concept, then immediately show a runnable snippet, then show its output in a bare fenced block labelled `Output:`.
 - `---` horizontal rules between major sections.

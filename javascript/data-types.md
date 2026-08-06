@@ -1,4 +1,4 @@
-[← Study Plan](../../README.md)
+[← Study Plan](../README.md)
 
 # Module 2 — Data Types & Memory in JavaScript
 
@@ -690,4 +690,4 @@ setState(state);
 
 | ← Previous | Index | Next → |
 | ---------- | ----- | ------ |
-| [Module 1 — Variables](variables.md) | [Study Plan](../../README.md) | [Module 3 — Functions & Closures](functions-closures.md) |
+| [Module 1 — Variables](variables.md) | [Study Plan](../README.md) | [Module 3 — Functions & Closures](functions-closures.md) |

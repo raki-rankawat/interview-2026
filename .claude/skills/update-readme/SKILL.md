@@ -53,7 +53,7 @@ For every note, in sequence order, set these three things and **nothing else**:
 [← Study Plan](<depth>/README.md)
 ```
 
-`<depth>` is one `..` per directory level below the repo root. A file at `javascript/fundamentals/x.md` is two levels deep, so `../../README.md`. Compute this per file — do not copy it from a sibling at a different depth.
+`<depth>` is one `..` per directory level below the repo root. A file at `javascript/x.md` is one level deep, so `../README.md`; a file at `react/hooks/x.md` would be two, so `../../README.md`. Compute this per file — do not copy it from a sibling at a different depth.
 
 **b. H1** — `# Module <N> — <Title>`. Keep the existing title wording; only correct the number.
 
@@ -64,10 +64,10 @@ For every note, in sequence order, set these three things and **nothing else**:
 
 | ← Previous | Index | Next → |
 | ---------- | ----- | ------ |
-| [Module 1 — Variables](variables.md) | [Study Plan](../../README.md) | [Module 3 — Closures](closures.md) |
+| [Module 1 — Variables](variables.md) | [Study Plan](../README.md) | [Module 3 — Closures](closures.md) |
 ```
 
-- Prev/next links are **relative to the current file**. Same directory is a bare filename; a different directory needs the relative hop (`../es6/arrow-functions.md`).
+- Prev/next links are **relative to the current file**. Same directory is a bare filename; a different directory needs the relative hop (`../typescript/generics.md`).
 - First module: prev cell is `— (first module)`.
 - Last module written so far: next cell names the planned next topic in italics with `*(not written yet)*`, taken from the study plan order. Do not link it.
 - Link text is `Module <N> — <short title>`. Shorten a long H1 for the cell; the full title stays in the file.
@@ -81,7 +81,7 @@ For every note, in sequence order, set these three things and **nothing else**:
 ```markdown
 | # | Module | Topic | File |
 | - | ------ | ----- | ---- |
-| 1 | Phase 1 · Fundamentals | Variables (`var`, `let`, `const`), scope, hoisting, TDZ | [variables.md](javascript/fundamentals/variables.md) |
+| 1 | Phase 1 · Fundamentals | Variables (`var`, `let`, `const`), scope, hoisting, TDZ | [variables.md](javascript/variables.md) |
 ```
 
 The Topic cell is a short summary of what the note actually covers — read the note's section headings, don't just restate its title.
@@ -90,12 +90,11 @@ Directory-to-phase mapping for the Module column:
 
 | Directory | Phase label |
 | --------- | ----------- |
-| `javascript/fundamentals/` | Phase 1 · Fundamentals |
-| `javascript/es6/` | Phase 1 · ES6+ |
-| `javascript/objects-arrays/` | Phase 1 · Objects & Arrays |
-| `javascript/async/` | Phase 1 · Async JavaScript |
+| `javascript/` | Phase 1 · pick the matching sub-heading (Fundamentals, ES6+, Objects & Arrays, Async JavaScript) |
 | `typescript/` | Phase 2 · TypeScript |
 | `react/` | Phase 3–7 · React (pick the matching phase) |
+
+JavaScript notes live flat in `javascript/`, so the directory alone does not determine the label — read the note's topic and pick the study-plan sub-heading it belongs under.
 
 For a directory not in this table, infer the phase from the study plan headings and add the row to this table so the mapping sticks.
 

@@ -1,4 +1,4 @@
-[← Study Plan](../../README.md)
+[← Study Plan](../README.md)
 
 # Module 4 — Objects & Arrays (Complete Guide)
 
@@ -1519,4 +1519,4 @@ Understanding this module will also make topics like classes, inheritance, and e
 
 | ← Previous | Index | Next → |
 | ---------- | ----- | ------ |
-| [Module 3 — Functions & Closures](functions-closures.md) | [Study Plan](../../README.md) | Module 5 — `this`, Prototypes & the Prototype Chain *(not written yet)* |
+| [Module 3 — Functions & Closures](functions-closures.md) | [Study Plan](../README.md) | [Module 5 — `this` & Prototypes](this-prototypes.md) |

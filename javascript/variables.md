@@ -1,4 +1,4 @@
-[← Study Plan](../../README.md)
+[← Study Plan](../README.md)
 
 # Module 1 — Variables in JavaScript
 
@@ -426,4 +426,4 @@ Each iteration gets its own binding, so the handlers log `0`, `1`, and `2` as ex
 
 | ← Previous | Index | Next → |
 | ---------- | ----- | ------ |
-| — (first module) | [Study Plan](../../README.md) | [Module 2 — Data Types & Memory](data-types.md) |
+| — (first module) | [Study Plan](../README.md) | [Module 2 — Data Types & Memory](data-types.md) |

@@ -10,12 +10,15 @@ This is the master index. Every note file links back here, and to the previous a
 
 | # | Module | Topic | File |
 | - | ------ | ----- | ---- |
-| 1 | Phase 1 · Fundamentals | Variables (`var`, `let`, `const`), scope, hoisting, TDZ | [variables.md](javascript/fundamentals/variables.md) |
-| 2 | Phase 1 · Fundamentals | Data Types & Memory (primitives, references, copying) | [data-types.md](javascript/fundamentals/data-types.md) |
-| 3 | Phase 1 · Fundamentals | Functions, arrow functions, execution context, call stack, scope chain, closures, stale closures | [functions-closures.md](javascript/fundamentals/functions-closures.md) |
-| 4 | Phase 1 · Fundamentals | Objects & arrays, destructuring, spread/rest, array methods, mutation vs immutability, complexity | [objects-arrays.md](javascript/fundamentals/objects-arrays.md) |
+| 1 | Phase 1 · Fundamentals | Variables (`var`, `let`, `const`), scope, hoisting, TDZ | [variables.md](javascript/variables.md) |
+| 2 | Phase 1 · Fundamentals | Data Types & Memory (primitives, references, copying) | [data-types.md](javascript/data-types.md) |
+| 3 | Phase 1 · Fundamentals | Functions, arrow functions, execution context, call stack, scope chain, closures, stale closures | [functions-closures.md](javascript/functions-closures.md) |
+| 4 | Phase 1 · Fundamentals | Objects & arrays, destructuring, spread/rest, array methods, mutation vs immutability, complexity | [objects-arrays.md](javascript/objects-arrays.md) |
+| 5 | Phase 1 · Fundamentals | `this` binding rules, `call`/`apply`/`bind`, prototypes, prototype chain, classes, inheritance | [this-prototypes.md](javascript/this-prototypes.md) |
+| 6 | Phase 1 · Fundamentals | Event loop, micro/macrotasks, promises, `async`/`await`, fetch, `AbortController`, retries, debounce/throttle | [async-event-loop.md](javascript/async-event-loop.md) |
+| 7 | Phase 1 · ES6+ | Template literals, modules, dynamic imports, `Map`/`Set`/`WeakMap`, iterators, generators, symbols, modern array methods | [es6-modern-js.md](javascript/es6-modern-js.md) |
 
-**Up next:** Module 5 — `this`, Prototypes & the Prototype Chain.
+**Up next:** Module 8 — TypeScript Fundamentals (Phase 2).
 
 Unlinked topics below have no notes yet. They get linked here as each one is written.
 
@@ -25,57 +28,64 @@ Unlinked topics below have no notes yet. They get linked here as each one is wri
 
 ## Fundamentals
 
-* [Variables (`var`, `let`, `const`)](javascript/fundamentals/variables.md) ✅
-* [Primitive vs Reference types](javascript/fundamentals/data-types.md) ✅
-* [Scope](javascript/fundamentals/variables.md) — covered inside Variables
-* [Hoisting](javascript/fundamentals/variables.md) — covered inside Variables
-* [Closures](javascript/fundamentals/functions-closures.md) ✅
-* [Lexical scope](javascript/fundamentals/functions-closures.md) — covered inside Functions & Closures
-* [Execution Context](javascript/fundamentals/functions-closures.md) ✅
-* [Call Stack](javascript/fundamentals/functions-closures.md) — covered inside Functions & Closures
-* Event Loop
-* Microtasks vs Macrotasks
-* [Garbage Collection](javascript/fundamentals/data-types.md) — partially covered in Data Types & Memory
+* [Variables (`var`, `let`, `const`)](javascript/variables.md) ✅
+* [Primitive vs Reference types](javascript/data-types.md) ✅
+* [Scope](javascript/variables.md) — covered inside Variables
+* [Hoisting](javascript/variables.md) — covered inside Variables
+* [Closures](javascript/functions-closures.md) ✅
+* [Lexical scope](javascript/functions-closures.md) — covered inside Functions & Closures
+* [Execution Context](javascript/functions-closures.md) ✅
+* [Call Stack](javascript/functions-closures.md) — covered inside Functions & Closures
+* [`this` and the binding rules](javascript/this-prototypes.md) ✅
+* [Prototypes & the prototype chain](javascript/this-prototypes.md) ✅
+* [Classes & inheritance](javascript/this-prototypes.md) — covered inside `this` & Prototypes
+* [Event Loop](javascript/async-event-loop.md) ✅
+* [Microtasks vs Macrotasks](javascript/async-event-loop.md) ✅
+* [Garbage Collection](javascript/data-types.md) — partially covered in Data Types & Memory
 
 ## ES6+
 
-* [Arrow functions](javascript/fundamentals/functions-closures.md) — covered inside Functions & Closures
-* [Destructuring](javascript/fundamentals/objects-arrays.md) — covered inside Objects & Arrays
-* [Spread operator](javascript/fundamentals/objects-arrays.md) — covered inside Objects & Arrays
-* [Rest operator](javascript/fundamentals/objects-arrays.md) — covered inside Objects & Arrays
-* Template literals
-* [Optional chaining](javascript/fundamentals/objects-arrays.md) — covered inside Objects & Arrays
-* [Nullish coalescing](javascript/fundamentals/objects-arrays.md) — covered inside Objects & Arrays
-* Modules
-* Dynamic imports
+* [Arrow functions](javascript/functions-closures.md) — covered inside Functions & Closures
+* [Destructuring](javascript/es6-modern-js.md) ✅
+* [Spread operator](javascript/es6-modern-js.md) ✅
+* [Rest operator](javascript/es6-modern-js.md) ✅
+* [Template literals](javascript/es6-modern-js.md) ✅
+* [Optional chaining](javascript/es6-modern-js.md) ✅
+* [Nullish coalescing](javascript/es6-modern-js.md) ✅
+* [Logical assignment operators](javascript/es6-modern-js.md) ✅
+* [Modules](javascript/es6-modern-js.md) ✅
+* [Dynamic imports](javascript/es6-modern-js.md) ✅
+* [`Map`, `Set`, `WeakMap`, `WeakSet`](javascript/es6-modern-js.md) ✅
+* [Iterators & Generators](javascript/es6-modern-js.md) ✅
 
 ## Objects & Arrays
 
-* [Object methods](javascript/fundamentals/objects-arrays.md) ✅
-* [Array methods](javascript/fundamentals/objects-arrays.md) ✅
-  * [map](javascript/fundamentals/objects-arrays.md) ✅
-  * [filter](javascript/fundamentals/objects-arrays.md) ✅
-  * [reduce](javascript/fundamentals/objects-arrays.md) ✅
-  * [some](javascript/fundamentals/objects-arrays.md) ✅
-  * [every](javascript/fundamentals/objects-arrays.md) ✅
-  * [find](javascript/fundamentals/objects-arrays.md) ✅
-  * [flatMap](javascript/fundamentals/objects-arrays.md) ✅
-* [Deep copy vs Shallow copy](javascript/fundamentals/data-types.md) ✅ — also recapped in Objects & Arrays
-* [Immutability](javascript/fundamentals/data-types.md) ✅ — mutation vs non-mutation covered in Objects & Arrays
-* [`Object.freeze()`](javascript/fundamentals/objects-arrays.md) ✅
+* [Object methods](javascript/objects-arrays.md) ✅
+* [Array methods](javascript/objects-arrays.md) ✅
+  * [map](javascript/objects-arrays.md) ✅
+  * [filter](javascript/objects-arrays.md) ✅
+  * [reduce](javascript/objects-arrays.md) ✅
+  * [some](javascript/objects-arrays.md) ✅
+  * [every](javascript/objects-arrays.md) ✅
+  * [find](javascript/objects-arrays.md) ✅
+  * [flatMap](javascript/objects-arrays.md) ✅
+* [Deep copy vs Shallow copy](javascript/data-types.md) ✅ — also recapped in Objects & Arrays
+* [Immutability](javascript/data-types.md) ✅ — mutation vs non-mutation covered in Objects & Arrays
+* [`Object.freeze()`](javascript/objects-arrays.md) ✅
 
 ## Async JavaScript
 
-* Promises
-* async/await
-* `Promise.all`
-* `Promise.allSettled`
-* `Promise.race`
-* Fetch API
-* AbortController
-* Error handling
-* Retry strategies
-* Exponential backoff
+* [Promises](javascript/async-event-loop.md) ✅
+* [async/await](javascript/async-event-loop.md) ✅
+* [`Promise.all`](javascript/async-event-loop.md) ✅
+* [`Promise.allSettled`](javascript/async-event-loop.md) ✅
+* [`Promise.race`](javascript/async-event-loop.md) ✅
+* [`Promise.any`](javascript/async-event-loop.md) ✅
+* [Fetch API](javascript/async-event-loop.md) ✅
+* [AbortController](javascript/async-event-loop.md) ✅
+* [Error handling](javascript/async-event-loop.md) ✅
+* [Retry strategies](javascript/async-event-loop.md) ✅
+* [Exponential backoff](javascript/async-event-loop.md) ✅
 
 ---
 
@@ -149,7 +159,7 @@ Know:
 
 * dependency array
 * cleanup
-* [stale closure](javascript/fundamentals/functions-closures.md) — covered inside Functions & Closures
+* [stale closure](javascript/functions-closures.md) — covered inside Functions & Closures
 * infinite loops
 * React Strict Mode
 * React 18 rendering
@@ -169,8 +179,8 @@ Must know deeply:
 * Code splitting
 * Virtualization
 * Memoization
-* Debouncing
-* Throttling
+* [Debouncing](javascript/async-event-loop.md) — covered inside Async JavaScript
+* [Throttling](javascript/async-event-loop.md) — covered inside Async JavaScript
 * Bundle optimization
 
 Know when **NOT** to optimize.
@@ -479,11 +489,13 @@ For **Frontend / Senior Frontend Engineer** roles in Europe, these are now expec
 ```
 interview-2026/
 └── javascript/
-    └── fundamentals/
-        ├── variables.md            Module 1
-        ├── data-types.md           Module 2
-        ├── functions-closures.md   Module 3
-        ├── objects-arrays.md       Module 4
-        ├── variables.js
-        └── index.html
+    ├── variables.md            Module 1
+    ├── data-types.md           Module 2
+    ├── functions-closures.md   Module 3
+    ├── objects-arrays.md       Module 4
+    ├── this-prototypes.md      Module 5
+    ├── async-event-loop.md     Module 6
+    ├── es6-modern-js.md        Module 7
+    ├── variables.js
+    └── index.html
 ```

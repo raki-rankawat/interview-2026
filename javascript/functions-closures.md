@@ -1,4 +1,4 @@
-[← Study Plan](../../README.md)
+[← Study Plan](../README.md)
 
 # Module 3 — Functions, Execution Context & Closures
 
@@ -1148,4 +1148,4 @@ Which one wins, and what principle decides it?
 
 | ← Previous | Index | Next → |
 | ---------- | ----- | ------ |
-| [Module 2 — Data Types & Memory](data-types.md) | [Study Plan](../../README.md) | [Module 4 — Objects & Arrays](objects-arrays.md) |
+| [Module 2 — Data Types & Memory](data-types.md) | [Study Plan](../README.md) | [Module 4 — Objects & Arrays](objects-arrays.md) |
