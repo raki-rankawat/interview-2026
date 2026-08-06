@@ -13,8 +13,9 @@ This is the master index. Every note file links back here, and to the previous a
 | 1 | Phase 1 · Fundamentals | Variables (`var`, `let`, `const`), scope, hoisting, TDZ | [variables.md](javascript/fundamentals/variables.md) |
 | 2 | Phase 1 · Fundamentals | Data Types & Memory (primitives, references, copying) | [data-types.md](javascript/fundamentals/data-types.md) |
 | 3 | Phase 1 · Fundamentals | Functions, arrow functions, execution context, call stack, scope chain, closures, stale closures | [functions-closures.md](javascript/fundamentals/functions-closures.md) |
+| 4 | Phase 1 · Fundamentals | Objects & arrays, destructuring, spread/rest, array methods, mutation vs immutability, complexity | [objects-arrays.md](javascript/fundamentals/objects-arrays.md) |
 
-**Up next:** Module 4 — Objects & Arrays.
+**Up next:** Module 5 — `this`, Prototypes & the Prototype Chain.
 
 Unlinked topics below have no notes yet. They get linked here as each one is written.
 
@@ -39,29 +40,29 @@ Unlinked topics below have no notes yet. They get linked here as each one is wri
 ## ES6+
 
 * [Arrow functions](javascript/fundamentals/functions-closures.md) — covered inside Functions & Closures
-* Destructuring
-* Spread operator
-* Rest operator
+* [Destructuring](javascript/fundamentals/objects-arrays.md) — covered inside Objects & Arrays
+* [Spread operator](javascript/fundamentals/objects-arrays.md) — covered inside Objects & Arrays
+* [Rest operator](javascript/fundamentals/objects-arrays.md) — covered inside Objects & Arrays
 * Template literals
-* Optional chaining
-* Nullish coalescing
+* [Optional chaining](javascript/fundamentals/objects-arrays.md) — covered inside Objects & Arrays
+* [Nullish coalescing](javascript/fundamentals/objects-arrays.md) — covered inside Objects & Arrays
 * Modules
 * Dynamic imports
 
 ## Objects & Arrays
 
-* Object methods
-* Array methods
-  * map
-  * filter
-  * reduce
-  * some
-  * every
-  * find
-  * flatMap
-* [Deep copy vs Shallow copy](javascript/fundamentals/data-types.md) ✅
-* [Immutability](javascript/fundamentals/data-types.md) ✅
-* `Object.freeze()`
+* [Object methods](javascript/fundamentals/objects-arrays.md) ✅
+* [Array methods](javascript/fundamentals/objects-arrays.md) ✅
+  * [map](javascript/fundamentals/objects-arrays.md) ✅
+  * [filter](javascript/fundamentals/objects-arrays.md) ✅
+  * [reduce](javascript/fundamentals/objects-arrays.md) ✅
+  * [some](javascript/fundamentals/objects-arrays.md) ✅
+  * [every](javascript/fundamentals/objects-arrays.md) ✅
+  * [find](javascript/fundamentals/objects-arrays.md) ✅
+  * [flatMap](javascript/fundamentals/objects-arrays.md) ✅
+* [Deep copy vs Shallow copy](javascript/fundamentals/data-types.md) ✅ — also recapped in Objects & Arrays
+* [Immutability](javascript/fundamentals/data-types.md) ✅ — mutation vs non-mutation covered in Objects & Arrays
+* [`Object.freeze()`](javascript/fundamentals/objects-arrays.md) ✅
 
 ## Async JavaScript
 
@@ -482,6 +483,7 @@ interview-2026/
         ├── variables.md            Module 1
         ├── data-types.md           Module 2
         ├── functions-closures.md   Module 3
+        ├── objects-arrays.md       Module 4
         ├── variables.js
         └── index.html
 ```
