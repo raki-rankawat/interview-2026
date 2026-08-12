@@ -1373,4 +1373,4 @@ Build these small. No libraries, no styling — the point is the data flow.
 
 | ← Previous | Index | Next → |
 | ---------- | ----- | ------ |
-| [Module 7 — ES6+ & Modern JavaScript](../javascript/es6-modern-js.md) | [Study Plan](../README.md) | Module 9 — React Fundamentals Part 2 *(not written yet)* |
+| [Module 7 — ES6+ & Modern JavaScript](../javascript/es6-modern-js.md) | [Study Plan](../README.md) | [Module 9 — React Hooks](react-hooks.md) |

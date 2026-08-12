@@ -18,10 +18,11 @@ This is the master index. Every note file links back here, and to the previous a
 | 6 | Phase 1 · Fundamentals | Event loop, micro/macrotasks, promises, `async`/`await`, fetch, `AbortController`, retries, debounce/throttle | [async-event-loop.md](javascript/async-event-loop.md) |
 | 7 | Phase 1 · ES6+ | Template literals, modules, dynamic imports, `Map`/`Set`/`WeakMap`, iterators, generators, symbols, modern array methods | [es6-modern-js.md](javascript/es6-modern-js.md) |
 | 8 | Phase 3 · React Fundamentals | What React is, imperative vs declarative, JSX and its rules, function components, props, state, props vs state, composition, conditional rendering, lists & keys | [react-fundamentals.md](react/react-fundamentals.md) |
+| 9 | Phase 4 · React Hooks | Hook rules, `useState`, functional updates, immutable nested updates, `useEffect`, dependency arrays, cleanup, `AbortController`, stale closures, `useRef`, `useMemo`, `useCallback`, `useContext`, `useReducer`, custom Hooks, React 18 behaviour | [react-hooks.md](react/react-hooks.md) |
 
-**Up next:** Module 9 — React Fundamentals Part 2: controlled vs uncontrolled components, rendering basics, Virtual DOM, reconciliation, common mistakes.
+**Up next:** Module 10 — Hooks deep dive: state batching, effects and stale closures in depth.
 
-Phase 2 (TypeScript) has been skipped for now and has no notes yet.
+Still unwritten from Phase 3: controlled vs uncontrolled components, rendering basics, Virtual DOM, reconciliation. Phase 2 (TypeScript) has been skipped for now and has no notes yet.
 
 Unlinked topics below have no notes yet. They get linked here as each one is written.
 
@@ -150,23 +151,23 @@ Unlinked topics below have no notes yet. They get linked here as each one is wri
 
 Know:
 
-* `useState`
-* `useEffect`
-* `useRef`
-* `useMemo`
-* `useCallback`
-* `useContext`
-* `useReducer`
-* custom hooks
+* [`useState`](react/react-hooks.md) ✅
+* [`useEffect`](react/react-hooks.md) ✅
+* [`useRef`](react/react-hooks.md) ✅
+* [`useMemo`](react/react-hooks.md) ✅
+* [`useCallback`](react/react-hooks.md) ✅
+* [`useContext`](react/react-hooks.md) ✅
+* [`useReducer`](react/react-hooks.md) ✅
+* [custom hooks](react/react-hooks.md) ✅
 
 Know:
 
-* dependency array
-* cleanup
-* [stale closure](javascript/functions-closures.md) — covered inside Functions & Closures
-* infinite loops
-* React Strict Mode
-* React 18 rendering
+* [dependency array](react/react-hooks.md) ✅
+* [cleanup](react/react-hooks.md) ✅
+* [stale closure](react/react-hooks.md) ✅ — the JavaScript mechanism is in [Functions & Closures](javascript/functions-closures.md)
+* [infinite loops](react/react-hooks.md) — covered inside React Hooks
+* [React Strict Mode](react/react-hooks.md) ✅
+* [React 18 rendering](react/react-hooks.md) — partially covered in React Hooks (batching and Strict Mode; concurrent features only introduced)
 
 ---
 
@@ -174,15 +175,15 @@ Know:
 
 Must know deeply:
 
-* `React.memo`
-* `useMemo`
-* `useCallback`
+* [`React.memo`](react/react-hooks.md) — covered inside React Hooks
+* [`useMemo`](react/react-hooks.md) — covered inside React Hooks
+* [`useCallback`](react/react-hooks.md) — covered inside React Hooks
 * Lazy loading
 * `React.lazy`
 * Suspense
 * Code splitting
 * Virtualization
-* Memoization
+* [Memoization](react/react-hooks.md) — covered inside React Hooks, including when *not* to memoize
 * [Debouncing](javascript/async-event-loop.md) — covered inside Async JavaScript
 * [Throttling](javascript/async-event-loop.md) — covered inside Async JavaScript
 * Bundle optimization
@@ -195,8 +196,8 @@ Know when **NOT** to optimize.
 
 Understand the differences:
 
-* Local State
-* Context API
+* [Local State](react/react-hooks.md) — covered inside React Hooks (`useState`, `useReducer`)
+* [Context API](react/react-hooks.md) — covered inside React Hooks
 * Redux Toolkit
 * Zustand
 * MobX (basic idea)
@@ -204,9 +205,9 @@ Understand the differences:
 
 Interview questions:
 
-* Context vs Redux
+* [Context vs Redux](react/react-hooks.md) ✅
 * Redux vs Zustand
-* Client State vs Server State
+* [Client State vs Server State](react/react-hooks.md) — partially covered in React Hooks
 
 ---
 
@@ -503,5 +504,6 @@ interview-2026/
 │   ├── variables.js
 │   └── index.html
 └── react/
-    └── react-fundamentals.md   Module 8
+    ├── react-fundamentals.md   Module 8
+    └── react-hooks.md          Module 9
 ```
