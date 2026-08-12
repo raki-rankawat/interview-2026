@@ -17,8 +17,11 @@ This is the master index. Every note file links back here, and to the previous a
 | 5 | Phase 1 · Fundamentals | `this` binding rules, `call`/`apply`/`bind`, prototypes, prototype chain, classes, inheritance | [this-prototypes.md](javascript/this-prototypes.md) |
 | 6 | Phase 1 · Fundamentals | Event loop, micro/macrotasks, promises, `async`/`await`, fetch, `AbortController`, retries, debounce/throttle | [async-event-loop.md](javascript/async-event-loop.md) |
 | 7 | Phase 1 · ES6+ | Template literals, modules, dynamic imports, `Map`/`Set`/`WeakMap`, iterators, generators, symbols, modern array methods | [es6-modern-js.md](javascript/es6-modern-js.md) |
+| 8 | Phase 3 · React Fundamentals | What React is, imperative vs declarative, JSX and its rules, function components, props, state, props vs state, composition, conditional rendering, lists & keys | [react-fundamentals.md](react/react-fundamentals.md) |
 
-**Up next:** Module 8 — TypeScript Fundamentals (Phase 2).
+**Up next:** Module 9 — React Fundamentals Part 2: controlled vs uncontrolled components, rendering basics, Virtual DOM, reconciliation, common mistakes.
+
+Phase 2 (TypeScript) has been skipped for now and has no notes yet.
 
 Unlinked topics below have no notes yet. They get linked here as each one is written.
 
@@ -125,20 +128,21 @@ Unlinked topics below have no notes yet. They get linked here as each one is wri
 
 ## JSX
 
-* Rendering
-* Conditional rendering
-* Lists
-* Keys
-* Fragments
+* [JSX](react/react-fundamentals.md) ✅
+* [Rendering](react/react-fundamentals.md) — partially covered in React Fundamentals (JSX → elements → UI; the render pipeline comes next)
+* [Conditional rendering](react/react-fundamentals.md) ✅
+* [Lists](react/react-fundamentals.md) ✅
+* [Keys](react/react-fundamentals.md) ✅
+* [Fragments](react/react-fundamentals.md) — covered inside React Fundamentals
 
 ## Components
 
-* Functional Components
-* Props
-* State
+* [Functional Components](react/react-fundamentals.md) ✅
+* [Props](react/react-fundamentals.md) ✅
+* [State](react/react-fundamentals.md) ✅
 * Controlled Components
 * Uncontrolled Components
-* Composition
+* [Composition](react/react-fundamentals.md) ✅
 
 ---
 
@@ -488,14 +492,16 @@ For **Frontend / Senior Frontend Engineer** roles in Europe, these are now expec
 
 ```
 interview-2026/
-└── javascript/
-    ├── variables.md            Module 1
-    ├── data-types.md           Module 2
-    ├── functions-closures.md   Module 3
-    ├── objects-arrays.md       Module 4
-    ├── this-prototypes.md      Module 5
-    ├── async-event-loop.md     Module 6
-    ├── es6-modern-js.md        Module 7
-    ├── variables.js
-    └── index.html
+├── javascript/
+│   ├── variables.md            Module 1
+│   ├── data-types.md           Module 2
+│   ├── functions-closures.md   Module 3
+│   ├── objects-arrays.md       Module 4
+│   ├── this-prototypes.md      Module 5
+│   ├── async-event-loop.md     Module 6
+│   ├── es6-modern-js.md        Module 7
+│   ├── variables.js
+│   └── index.html
+└── react/
+    └── react-fundamentals.md   Module 8
 ```

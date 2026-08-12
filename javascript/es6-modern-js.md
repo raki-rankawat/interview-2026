@@ -1469,4 +1469,4 @@ This is the level of TypeScript knowledge typically expected for mid-level and s
 
 | ← Previous | Index | Next → |
 | ---------- | ----- | ------ |
-| [Module 6 — Async JavaScript & the Event Loop](async-event-loop.md) | [Study Plan](../README.md) | Module 8 — TypeScript Fundamentals *(not written yet)* |
+| [Module 6 — Async JavaScript & the Event Loop](async-event-loop.md) | [Study Plan](../README.md) | [Module 8 — React Fundamentals](../react/react-fundamentals.md) |
