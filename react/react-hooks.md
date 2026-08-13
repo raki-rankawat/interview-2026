@@ -1709,4 +1709,4 @@ Build these small, without libraries.
 
 | ← Previous | Index | Next → |
 | ---------- | ----- | ------ |
-| [Module 8 — React Fundamentals](react-fundamentals.md) | [Study Plan](../README.md) | Module 10 — Hooks Deep Dive *(not written yet)* |
+| [Module 8 — React Fundamentals](react-fundamentals.md) | [Study Plan](../README.md) | [Module 10 — React Performance](react-performance.md) |

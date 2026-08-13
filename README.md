@@ -19,10 +19,11 @@ This is the master index. Every note file links back here, and to the previous a
 | 7 | Phase 1 · ES6+ | Template literals, modules, dynamic imports, `Map`/`Set`/`WeakMap`, iterators, generators, symbols, modern array methods | [es6-modern-js.md](javascript/es6-modern-js.md) |
 | 8 | Phase 3 · React Fundamentals | What React is, imperative vs declarative, JSX and its rules, function components, props, state, props vs state, composition, conditional rendering, lists & keys | [react-fundamentals.md](react/react-fundamentals.md) |
 | 9 | Phase 4 · React Hooks | Hook rules, `useState`, functional updates, immutable nested updates, `useEffect`, dependency arrays, cleanup, `AbortController`, stale closures, `useRef`, `useMemo`, `useCallback`, `useContext`, `useReducer`, custom Hooks, React 18 behaviour | [react-hooks.md](react/react-hooks.md) |
+| 10 | Phase 5 · React Performance | Render → reconciliation → commit, what causes re-renders, referential equality, `React.memo`/`useMemo`/`useCallback` and when not to, state colocation, children-as-props, Context performance, debounce/throttle, `useDeferredValue`/`useTransition`, code splitting, `React.lazy`, `Suspense`, virtualization, network & bundle optimization, profiling, Core Web Vitals | [react-performance.md](react/react-performance.md) |
 
-**Up next:** Module 10 — Hooks deep dive: state batching, effects and stale closures in depth.
+**Up next:** Module 11 — State Management: Redux Toolkit, Zustand, and React Query / TanStack Query.
 
-Still unwritten from Phase 3: controlled vs uncontrolled components, rendering basics, Virtual DOM, reconciliation. Phase 2 (TypeScript) has been skipped for now and has no notes yet.
+Still unwritten from Phase 3: controlled vs uncontrolled components, Virtual DOM internals. Phase 2 (TypeScript) has been skipped for now and has no notes yet.
 
 Unlinked topics below have no notes yet. They get linked here as each one is written.
 
@@ -130,7 +131,7 @@ Unlinked topics below have no notes yet. They get linked here as each one is wri
 ## JSX
 
 * [JSX](react/react-fundamentals.md) ✅
-* [Rendering](react/react-fundamentals.md) — partially covered in React Fundamentals (JSX → elements → UI; the render pipeline comes next)
+* [Rendering](react/react-performance.md) ✅ — JSX → elements → UI in [React Fundamentals](react/react-fundamentals.md); the render → reconciliation → commit pipeline in React Performance
 * [Conditional rendering](react/react-fundamentals.md) ✅
 * [Lists](react/react-fundamentals.md) ✅
 * [Keys](react/react-fundamentals.md) ✅
@@ -167,7 +168,7 @@ Know:
 * [stale closure](react/react-hooks.md) ✅ — the JavaScript mechanism is in [Functions & Closures](javascript/functions-closures.md)
 * [infinite loops](react/react-hooks.md) — covered inside React Hooks
 * [React Strict Mode](react/react-hooks.md) ✅
-* [React 18 rendering](react/react-hooks.md) — partially covered in React Hooks (batching and Strict Mode; concurrent features only introduced)
+* [React 18 rendering](react/react-hooks.md) ✅ — batching and Strict Mode in React Hooks; `useTransition` and `useDeferredValue` in [React Performance](react/react-performance.md)
 
 ---
 
@@ -175,20 +176,24 @@ Know:
 
 Must know deeply:
 
-* [`React.memo`](react/react-hooks.md) — covered inside React Hooks
-* [`useMemo`](react/react-hooks.md) — covered inside React Hooks
-* [`useCallback`](react/react-hooks.md) — covered inside React Hooks
-* Lazy loading
-* `React.lazy`
-* Suspense
-* Code splitting
-* Virtualization
-* [Memoization](react/react-hooks.md) — covered inside React Hooks, including when *not* to memoize
-* [Debouncing](javascript/async-event-loop.md) — covered inside Async JavaScript
-* [Throttling](javascript/async-event-loop.md) — covered inside Async JavaScript
-* Bundle optimization
+* [`React.memo`](react/react-performance.md) ✅ — also introduced in [React Hooks](react/react-hooks.md)
+* [`useMemo`](react/react-performance.md) ✅ — also introduced in [React Hooks](react/react-hooks.md)
+* [`useCallback`](react/react-performance.md) ✅ — also introduced in [React Hooks](react/react-hooks.md)
+* [Lazy loading](react/react-performance.md) ✅
+* [`React.lazy`](react/react-performance.md) ✅
+* [Suspense](react/react-performance.md) ✅
+* [Code splitting](react/react-performance.md) ✅
+* [Virtualization](react/react-performance.md) ✅
+* [Memoization](react/react-performance.md) ✅ — including when *not* to memoize
+* [Debouncing](react/react-performance.md) ✅ — the plain-JS implementation is in [Async JavaScript](javascript/async-event-loop.md)
+* [Throttling](react/react-performance.md) ✅ — the plain-JS implementation is in [Async JavaScript](javascript/async-event-loop.md)
+* [Bundle optimization](react/react-performance.md) ✅
+* [Referential equality & re-render causes](react/react-performance.md) ✅
+* [State colocation & Context performance](react/react-performance.md) ✅
+* [`useDeferredValue` / `useTransition`](react/react-performance.md) ✅
+* [Measuring: Profiler, Chrome DevTools, Core Web Vitals](react/react-performance.md) ✅
 
-Know when **NOT** to optimize.
+[Know when **NOT** to optimize.](react/react-performance.md) ✅
 
 ---
 
@@ -294,7 +299,7 @@ React Router:
 * `clamp()`
 * `aspect-ratio`
 * `object-fit`
-* Responsive images
+* [Responsive images](react/react-performance.md) — covered inside React Performance (`srcset`, `sizes`, `loading`, modern formats)
 
 ## Modern CSS
 
@@ -338,7 +343,7 @@ React Router:
 * npm
 * pnpm
 * yarn
-* Tree shaking
+* [Tree shaking](react/react-performance.md) — covered inside React Performance
 * Source maps
 
 ---
@@ -346,9 +351,9 @@ React Router:
 # Phase 15 – Browser Knowledge
 
 * DOM
-* Virtual DOM
-* Reconciliation
-* Rendering pipeline
+* [Virtual DOM](react/react-performance.md) — partially covered in React Performance (what it does and does not buy you; internals still unwritten)
+* [Reconciliation](react/react-performance.md) — covered inside React Performance
+* [Rendering pipeline](react/react-performance.md) — covered inside React Performance (React's render → reconcile → commit; the browser pipeline is still unwritten)
 * Reflow
 * Repaint
 * Event bubbling
@@ -409,8 +414,8 @@ Prepare to discuss:
 * Large component architecture
 * Folder organization
 * State management strategy
-* Performance optimization
-* Code splitting
+* [Performance optimization](react/react-performance.md) — covered inside React Performance
+* [Code splitting](react/react-performance.md) — covered inside React Performance
 * Caching
 * Offline support
 
@@ -505,5 +510,6 @@ interview-2026/
 │   └── index.html
 └── react/
     ├── react-fundamentals.md   Module 8
-    └── react-hooks.md          Module 9
+    ├── react-hooks.md          Module 9
+    └── react-performance.md    Module 10
 ```
